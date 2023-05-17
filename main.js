@@ -69,3 +69,50 @@ let swiper = new Swiper('.video-slider', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+// play button 
+
+ // Get the play/pause button and video element for the first video
+  var playButton1 = document.getElementById("playButton1");
+  var video1 = document.getElementById("myVideo1");
+
+  // Add event listener to the play/pause button
+  playButton1.addEventListener("click", function() {
+      if (video1.paused) {
+          video1.play();
+          playButton1.innerHTML = "&#x23F8;"; // Pause button icon
+      } else {
+          video1.pause();
+          playButton1.innerHTML = "&#x25BA;"; // Play button icon
+      }
+  });
+
+  // Get the play/pause button and video element for the second video
+  var playButton2 = document.getElementById("playButton2");
+  var video2 = document.getElementById("myVideo2");
+
+  // Add event listener to the play/pause button
+  playButton2.addEventListener("click", function() {
+      if (video2.paused) {
+          video2.play();
+          playButton2.innerHTML = "&#x23F8;"; // Pause button icon
+      } else {
+          video2.pause();
+          playButton2.innerHTML = "&#x25BA;"; // Play button icon
+      }
+  });
+
+  // Get the play/pause button and video element for the third video
+  var playButton3 = document.getElementById("playButton3");
+  var video3 = document.getElementById("myVideo3");
+
+  // Add event listener to the play/pause button
+  playButton3.addEventListener("click", function() {
+      if (video3.paused) {
+          video3.play();
+          playButton3.innerHTML = "&#x23F8;"; // Pause button icon
+      } else {
+          video3.pause();
+          playButton3.innerHTML = "&#x25BA;"; // Play button icon
+      }
+  });
