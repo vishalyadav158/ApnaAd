@@ -266,6 +266,45 @@ section {
     color: orange;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  #playButton1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  #playButton2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  #playButton3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
 /* -- videoad section end -- */
 
 /* -------------------------------------------------------------------------------- */
